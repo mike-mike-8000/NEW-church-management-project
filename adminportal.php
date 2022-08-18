@@ -1,11 +1,10 @@
 <?php
     session_start();
-    if(!isset($_SESSION['email'])){
-        header("location:userlogin.php");
+    if(!isset($_SESSION['username'])){
+        header("location:adminlogin.php");
     }
 
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,21 +20,18 @@
 <!-- Javascript popper-->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<title>User Portal</title>
+<title>Admin Portal</title>
 </head>
 <header>
     <nav>
         <ul>
-            <li><a href="userportal.php">User Home</a></li>
-            <li><a href="announce.php">Announcements</a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="contact.php">Contact Us</a></li>
+            <li><a href="adminportal.php">Administrator Home</a></li>
             <hr>
         </ul>
     </nav>
 </header>
 
 <body>
-    <div class="section_1">
-        <h1 class="img-text">WELCOME USER!</h1>
+    <div class="adminsection_1">
+        <h1 class="img-text">WELCOME, THIS IS THE ADMIN PORTAL!</h1>
 </body>

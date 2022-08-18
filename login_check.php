@@ -1,4 +1,5 @@
 <?php
+session_start();
 error_reporting(0);
 $host = "localhost";
 $user = "root";
@@ -26,8 +27,9 @@ if($_SERVER["REQUEST_METHOD"] == 'POST')
 
         if($row["email"])
         {
+            $_SESSION['email']=$name;
             header("location:userportal.php");
-            echo "LOGIN SUCCESS";
+            
         }else{
             session_start();
             $message= "USERNAME OR PASSWORD IS INCORRECT";

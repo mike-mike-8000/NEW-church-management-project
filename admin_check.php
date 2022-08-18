@@ -1,5 +1,5 @@
 <?php
-
+error_reporting(0);
 $host = "localhost";
 $user = "root";
 $password = '';
@@ -26,6 +26,7 @@ if($_SERVER["REQUEST_METHOD"] == 'POST')
 
         if($row["username"])
         {
+            $_SESSION['username']=$name;
             header("location:adminportal.php");
             echo "LOGIN SUCCESS";
         }else{
