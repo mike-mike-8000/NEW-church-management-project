@@ -26,7 +26,7 @@
 </header>
 <body>
     <center>
-    <form class="login">
+    <form class="login" action="admin_check.php" method="POST">
         <h1> Admin Login Form </h1> 
         <div class="form">  
             <div> 
