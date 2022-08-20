@@ -26,8 +26,8 @@
     <nav>
         <ul>
             <li><a href="adminportal.php">Administrator Home</a></li>
-            <a href="logout.php" class="btn btn-danger">Logout</a>
 
+            <a href="logout.php" class="btn btn-danger">Logout</a>
             <hr>
         </ul>
     </nav>
@@ -36,10 +36,16 @@
 <body>
     <div class="adminsection_1">
         <h1 class="img-text">WELCOME, THIS IS THE ADMIN PORTAL!</h1>
+    </div>
 
 
     <aside>
-        <li>GENERAL ITEMS
-        </li>
+        <ul>
+            <li><a href="">VIEW EXISTING MEMBERS</a></li>
+            <li><a href=""> </a>UPDATE EVENTS</li>
+            <li><a href=""> </a>UPDATE CHURCH ANNOUNCEMENTS</li>
+        </ul>
     </aside>
+
+    
 </body>
