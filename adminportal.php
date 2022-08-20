@@ -26,6 +26,8 @@
     <nav>
         <ul>
             <li><a href="adminportal.php">Administrator Home</a></li>
+            <a href="logout.php" class="btn btn-danger">Logout</a>
+
             <hr>
         </ul>
     </nav>
@@ -34,4 +36,10 @@
 <body>
     <div class="adminsection_1">
         <h1 class="img-text">WELCOME, THIS IS THE ADMIN PORTAL!</h1>
+
+
+    <aside>
+        <li>GENERAL ITEMS
+        </li>
+    </aside>
 </body>

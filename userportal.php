@@ -30,6 +30,7 @@
             <li><a href="announce.php">Announcements</a></li>
             <li><a href="about.php">About</a></li>
             <li><a href="contact.php">Contact Us</a></li>
+            <a href="logout.php" class="btn btn-danger">Logout</a>
             <hr>
         </ul>
     </nav>

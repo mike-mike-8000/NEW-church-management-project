@@ -1,4 +1,5 @@
 <?php
+session_start();
 error_reporting(0);
 $host = "localhost";
 $user = "root";
@@ -24,7 +25,7 @@ if($_SERVER["REQUEST_METHOD"] == 'POST')
 
         $row = mysqli_fetch_array($result);
 
-        if($row["username"])
+        if($row['username'])
         {
             $_SESSION['username']=$name;
             header("location:adminportal.php");
