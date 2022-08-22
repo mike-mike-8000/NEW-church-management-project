@@ -1,0 +1,58 @@
+
+
+.header
+{
+
+    background-color: rgb(182, 217, 219);
+	line-height: 70px;
+	padding-left: 30px;	
+    padding: 20px;
+    margin: 0;
+}
+
+
+
+.logout
+{
+	float: right;
+	padding-right: 30px;
+}
+
+aside ul
+{
+	background-color: #1f4cac;
+	width: 16%;
+	height: 100%;
+	position: fixed;
+	padding-top: 5%;
+	text-align: center;
+    padding-left: 10px;
+}
+
+ul li 
+{
+	list-style: none;
+	padding-bottom: 30px;
+	font-size: 15px;
+    text-align: centers;
+
+}
+
+ul li a 
+{
+	color: white;
+	font-weight: bold;
+}
+
+ul li a:hover
+{
+	color: skyblue;
+	text-decoration: none;
+}
+
+.content
+{
+	margin-left: 20%;
+	margin-top: 5%;
+}
+
