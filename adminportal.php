@@ -25,10 +25,9 @@
 
 <header class="header">
 		
-		<a href="adminportal.php">This is the admin dashboard</a>
+		<a id="adm">Administrator Portal</a>
 		<div class="logout">	
         <a href="logout.php" class="btn btn-danger">Logout</a>
-        <hr>
 		</div>
 
 </header>
@@ -36,9 +35,9 @@
     <aside>
         <ul>
             <li><a href="adminportal.php">DASHBOARD HOME</a>
-            <li><a href="">VIEW EXISTING MEMBERS</a></li>
-            <li><a href=""> </a>UPDATE EVENTS</li>
-            <li><a href=""> </a>UPDATE CHURCH ANNOUNCEMENTS</li>
+            <li><a href="">View Members</a></li>
+            <li><a href="">Event Editor</a></li>
+            <li><a href="">Update Church Announcements</a></li>
         </ul>
     </aside>
 
@@ -48,7 +47,7 @@
             <h1 class="img-text">WELCOME, THIS IS THE ADMIN PORTAL!</h1>
         </div>
 		
-		<h1>Sidebar Accordion</h1>
+		<h1>Admin Home</h1>
 
 		<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo, dicta suscipit earum nostrum 
             ratione, et rerum placeat iure, consectetur esse sunt quam soluta dolore animi odit quasi 
