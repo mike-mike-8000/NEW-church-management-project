@@ -27,12 +27,11 @@
         </ul>
     </nav>
 </header>
-<body background="/images/pexels.JPG" id="bodyback">
+<body background="images/phone.JPG" id="contactback">
     <div class="form-group">
-        <div>
         <h1>FEEL FREE TO CONTACT US!</h1>
         <h1>Send us a Message at:</h1>
-        </div>
+    </div>
         <div>
         <form id="contactform">
             <label for="name">Name: </label><br>
@@ -44,9 +43,11 @@
             <input type="email" id="email" name="email"><br>
             <label for="Message">Your Message:</label><br>
             <textarea class="message" placeholder="Your message here"></textarea><br>
+            <br>
+            <br>
             <input type="submit" value="SUBMIT QUESTION"><br>
         </form>
-        </div>
     </div>
+
 </center>
 </body>

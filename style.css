@@ -75,6 +75,8 @@ textarea {
 
 #contactform{
     margin: 0 5px;
+    color: white;
+    position: inherit;
 }
 
 .login h1 {
@@ -82,9 +84,15 @@ textarea {
     padding-bottom: 30px;
 }
 
-#bodyback {
+#contactback {
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    padding-bottom: 95px;
+}
+
+.form-group {
+    background-color: white;
+    width: fit-content;
 }
 
 .contaf h1 {
@@ -100,6 +108,11 @@ textarea {
 
 h5{
     background-color: red;
+    color: white;
+}
+
+.signmsg{
+    background-color: rgb(22, 139, 22);
     color: white;
 }
 
