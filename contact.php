@@ -32,22 +32,39 @@
         <h1>FEEL FREE TO CONTACT US!</h1>
         <h1>Send us a Message at:</h1>
     </div>
+            <h5 class="signmsg">
+                <?php
+                    error_reporting(0);
+                    session_start();
+                    session_destroy();
+                    echo $_SESSION['sentMessage'];
+                ?>
+            </h5>
+        
         <div>
-        <form id="contactform">
-            <label for="name">Name: </label><br>
+        <form action="msgconnect.php" method="POST" id="contactform">
+            <div>
+            <label for="name">Name: </label>
             <input type="text" id="name" name="name">
+            </div>
             <br>
-            <label for="Number">Number:</label><br>
+            <div>
+            <label for="Number">Number:</label>
             <input type="number" id="Number" name="number"><br>
-            <label for="Email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
-            <label for="Message">Your Message:</label><br>
-            <textarea class="message" placeholder="Your message here"></textarea><br>
+            </div>
             <br>
+            <div>
+            <label for="Email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            </div>
+            <br>
+            <div>
+            <label for="Message">Your Message:</label><br>
+            <textarea class="message" placeholder="Your message here" name="msg"></textarea>
+            </div>
             <br>
             <input type="submit" value="SUBMIT QUESTION"><br>
         </form>
-    </div>
+        </div>
 
-</center>
 </body>
