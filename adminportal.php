@@ -35,7 +35,7 @@
     <aside>
         <ul>
             <li><a href="adminportal.php">DASHBOARD HOME</a>
-            <li><a href="">View Members</a></li>
+            <li><a href="memberlist.php">View Members</a></li>
             <li><a href="">Event Editor</a></li>
             <li><a href="">Update Church Announcements</a></li>
         </ul>
