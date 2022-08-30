@@ -50,7 +50,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <img class="welcome_img" src="images/phone.jpg">
+                <img class="welcome_img" src="images/praise.jpg">
             </div>
 
             <div class="col-md-8">
