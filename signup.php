@@ -78,11 +78,11 @@
         <input type="password" placeholder="Enter Password" name="psw" required>
         </div>
         <br>
-        <div>
+        <!--<div>
         <label for="psw-repeat"><b>Repeat Password: </b></label>
         <input type="password" placeholder="Repeat Password" name="psw-repeat" >
         </div>
-        <br>
+        <br>-->
 
 
         <div>

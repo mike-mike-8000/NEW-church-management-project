@@ -45,12 +45,12 @@
         <form action="msgconnect.php" method="POST" id="contactform">
             <div>
             <label for="name">Name: </label>
-            <input type="text" id="name" name="name">
+            <input type="text" id="name" name="name" required>
             </div>
             <br>
             <div>
             <label for="Number">Number:</label>
-            <input type="number" id="Number" name="number"><br>
+            <input type="number" id="Number" name="number" required><br>
             </div>
             <br>
             <div>
@@ -60,7 +60,7 @@
             <br>
             <div>
             <label for="Message">Your Message:</label><br>
-            <textarea class="message" placeholder="Your message here" name="msg"></textarea>
+            <textarea class="message" placeholder="Your message here" name="msg" required></textarea>
             </div>
             <br>
             <input type="submit" value="SUBMIT QUESTION"><br>
