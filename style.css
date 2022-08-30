@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 a:hover {
     color: red;
 }
@@ -104,6 +109,11 @@ textarea {
     padding-top: 30px;
     padding-bottom: 30px;
     margin: 0 5px;
+}
+
+.welcome_img{
+    width: 100%;
+    height: 250px;
 }
 
 h5{

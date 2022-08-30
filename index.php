@@ -37,25 +37,62 @@
         <br>
         <br>
         <br>
-        <h2>ANNOUNCEMENTS</h2>
+        <h2>WELCOME</h2>
         <br>
         <p1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet 
             voluptatum velit quis odio natus sapiente 
             ad reiciendis</p1>
+        <br>
+        <br>
+        <br>
     </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img class="welcome_img" src="images/phone.jpg">
+            </div>
+
+            <div class="col-md-8">
+                <h1>We're a Community</h1>
+                <p>
+                    We love God and would like to share our love of God with everyone else
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio esse laudantium, rerum nulla 
+                    nesciunt laboriosam explicabo perferendis repellat 
+                    repudiandae, illum totam perspiciatis amet asperiores nam, 
+                    expedita ad modi. Atque, repellendus. </p>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <h1>Join Us</h1>
+                <p>
+                    Become a proud member of our church today, Join our cause by opening your account here
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio esse laudantium, rerum nu
+                    <br>
+                    <a href="signup.php" class="btn btn-success">Open your Account here</a> 
+                </p>
+            </div>
+            <div class="col-md-4">
+               <img class="join" src="">
+            </div>
+    
+        </div>
+    </div>
+
         <br>
         <br>
         <br> 
         <br>
         <br>
         <br>
-    <section>
-        <a href="signup.php" class="btn btn-success">Open your Account here</a>
-        <br>
-    <br>
-    <br>
-    <br>
-    </section>
+    
     
 </body>
 </html>
