@@ -4,6 +4,12 @@
         header("location:adminlogin.php");
     }
 
+    $data = mysqli_connect("localhost","root","","church_system");
+
+    $sql = "SELECT * FROM user_register";
+
+    $result = mysqli_query($data, $sql);
+
 ?>
 
 <!DOCTYPE html>
@@ -43,6 +49,7 @@
                 margin-top: 50px;
                 margin-left: auto;
                 margin-right: auto;
+                margin-bottom: 80px;
             }
 
             table tr th {
@@ -52,7 +59,15 @@
                 background-color: lightblue;
                 width: max-content;
             }
+                table tr td {
+                border: 1px solid black;
+                padding:20px; 
+                padding-bottom: 5px;
+                text-align:center;
+                width: max-content;
+            }
         </style>
+
         <table>
             <tr>
                 <th colspan="6">USER MEMBER LIST</th>
@@ -65,7 +80,22 @@
                 <th>Number</th>
                 <th>Gender</th>
             </tr>
+            
+            <?php 
+                while($aquire=$result->fetch_assoc())
+                {
+            ?>
 
+            <tr>
+                <td>  <?php echo "{$aquire['ID']}"; ?></td>
+                <td>  <?php echo "{$aquire['firstName']}"; ?></td>
+                <td>  <?php echo "{$aquire['lastName']}"; ?></td>
+                <td>  <?php echo "{$aquire['email']}"; ?></td>
+                <td>  <?php echo "{$aquire['number']}"; ?></td>
+                <td>  <?php echo "{$aquire['gender']}"; ?></td>
+            </tr>
+            
+            <?php } ?>
 
         </table>
         
