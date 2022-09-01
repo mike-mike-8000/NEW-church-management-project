@@ -23,24 +23,9 @@
 <title>Admin Portal</title>
 </head>
 
-<header class="header">
-		
-		<a id="adm">Administrator Portal</a>
-		<div class="logout">	
-        <a href="logout.php" class="btn btn-danger">Logout</a>
-		</div>
-
-</header>
-<body>
-    <aside>
-        <ul>
-            <li><a href="adminportal.php">DASHBOARD HOME</a>
-            <li><a href="">View Members</a></li>
-            <li><a href="">Event Editor</a></li>
-            <li><a href="">Update Church Announcements</a></li>
-        </ul>
-    </aside>
-
+<?php
+    include "adminheader.php";
+?>
     <div class="content">
 
         <div class="adminsection_1">
@@ -52,5 +37,37 @@
         <p>The following section contains a list of all church members who 
             are registered to this platform.
         </p>
+
+        <style>
+            table {
+                margin-top: 50px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            table tr th {
+                border: 1px solid black;
+                padding:20px; 
+                text-align:center;
+                background-color: lightblue;
+                width: max-content;
+            }
+        </style>
+        <table>
+            <tr>
+                <th colspan="6">USER MEMBER LIST</th>
+            </tr>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Number</th>
+                <th>Gender</th>
+            </tr>
+
+
+        </table>
+        
 
 </body>

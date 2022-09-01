@@ -34,21 +34,37 @@
     </div>
 
     <section class="announce">
-        <br>
-        <br>
-        <br>
         <h2>WELCOME</h2>
         <br>
         <p1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet 
             voluptatum velit quis odio natus sapiente 
-            ad reiciendis</p1>
-        <br>
-        <br>
-        <br>
+            ad reiciendis Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit facilis, c
+            umque nobis voluptatem velit excepturi aut cum debitis vero aliquid error tenetur voluptatum 
+            incidunt ratione eligendi. Id explicabo cupiditate dolorem!</p1>
+
+        <hr>
     </section>
 
+    <style>
+
+        .container div{
+        margin-top: 45px;
+        margin-bottom: 50px;
+        }
+
+        .announce h2{
+            margin-left: auto;
+            text-align: center;
+        }
+        .announce {
+            margin-top: 50px;
+            margin-bottom: 10px;
+            margin-left: 45px;
+        }
+    </style>
+
     <div class="container">
-        <div class="row">
+        <div class="row" id="row1">
             <div class="col-md-4">
                 <img class="welcome_img" src="images/praise.jpg">
             </div>
@@ -61,15 +77,11 @@
                     nesciunt laboriosam explicabo perferendis repellat 
                     repudiandae, illum totam perspiciatis amet asperiores nam, 
                     expedita ad modi. Atque, repellendus. </p>
-            <br>
-            <br>
-            <br>
-            <br>
 
             </div>
 
         </div>
-        <div class="row">
+        <div class="row" id="row2">
             <div class="col-md-8">
                 <h1>Join Us</h1>
                 <p>
@@ -85,14 +97,6 @@
     
         </div>
     </div>
-
-        <br>
-        <br>
-        <br> 
-        <br>
-        <br>
-        <br>
-    
     
 </body>
 </html>
