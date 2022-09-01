@@ -98,6 +98,6 @@
             <?php } ?>
 
         </table>
-        
+    </div>  
 
 </body>

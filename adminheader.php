@@ -11,7 +11,7 @@
         <ul>
             <li><a href="adminportal.php">DASHBOARD HOME</a>
             <li><a href="memberlist.php">View Members</a></li>
-            <li><a href="">View Messages</a></li>
+            <li><a href="texts.php">View Messages</a></li>
             <li><a href="">Event Editor</a></li>
             <li><a href="">Update Church Announcements</a></li>
         </ul>
