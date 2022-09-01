@@ -1,3 +1,17 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['username'])){
+        header("location:adminlogin.php");
+    }
+
+    $seen = mysqli_connect("localhost","root","","church_system");
+
+    $sql = "SELECT * FROM messages";
+
+    $result = mysqli_query($seen, $sql);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,27 +54,32 @@
         </style>
 
         <div class="message_reader">
-        <style> p1{margin-right: 200px ;}</style>
-            <h8>Message ID: 1</h8>
+        <style> p1{margin-right: 200px ;} 
+                p2{margin-bottom: 10px; border-bottom: 30px;
+                   border-width: 22cm;
+                
+                }</style>
+                <?php 
+                 while($aquire=$result->fetch_assoc())
+                    {
+                ?>
+            <br>
+            <hr style="border-top: 3px solid black;">
+            <h8>Message ID: <?php echo "{$aquire['ID']}"; ?></h8>
             <hr>
-            <h4>Name: Mike </h4>
+            <h4>Name: <?php echo "{$aquire['name']}"; ?> </h4>
             <hr>
-            <p1>Number: 98530985</p1>
-            <p1>Email:  harjasd@vance.com</p1>
+            <p1>Number: <?php echo "{$aquire['number']}"; ?></p1>
+            <p1>Email:  <?php echo "{$aquire['email']}"; ?></p1>
             <hr>
 
             <div>
-                Message: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Quam, inventore? At nostrum deleniti quod nobis qui, dolorum perferendis quis 
-                sed hic accusamus, neque amet! Perspiciatis aut adipisci fugiat 
-                tenetur consequatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis consequatur
-                 quidem ipsa eligendi, eveniet voluptas 
-                nisi quia nam fugiat voluptates adipisci excepturi non ea porro qui sunt atque dicta dolorem!
+                Message: <?php echo "{$aquire['message']}"; ?>
             </div>
             <hr>
             <p2>Date:  </p2>
 
-
+                <?php } ?>
         </div>
         
 
