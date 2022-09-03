@@ -1,5 +1,4 @@
 
-
 .header
 {
 
@@ -113,3 +112,13 @@ table, tr, th {
 	border: 1px solid black;
 }
 
+.announcement1{
+	color: blue;
+	width: 30cm;
+	height: 10cm;
+}
+
+.signmsg{
+    background-color: rgb(22, 139, 22);
+    color: white;
+}

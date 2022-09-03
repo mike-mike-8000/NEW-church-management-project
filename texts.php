@@ -49,6 +49,7 @@
                 padding-left: 5px;
                 border: 3px solid black; 
                 padding-left: 5px;
+                margin-bottom: 100px;
             }
 
         </style>
@@ -56,7 +57,7 @@
         <div class="message_reader">
         <style> p1{margin-right: 200px ;} 
                 p2{margin-bottom: 10px; border-bottom: 30px;
-                   border-width: 22cm;
+                   border-width: 22cm; 
                 
                 }</style>
                 <?php 
@@ -64,8 +65,8 @@
                     {
                 ?>
             <br>
-            <hr style="border-top: 3px solid black;">
-            <h8>Message ID: <?php echo "{$aquire['ID']}"; ?></h8>
+            <hr style="border-top: 10px solid black; margin-left: 0px; ">
+            <h8><b>Message ID: <?php echo "{$aquire['ID']}"; ?> </b></h8>
             <hr>
             <h4>Name: <?php echo "{$aquire['name']}"; ?> </h4>
             <hr>
@@ -77,7 +78,7 @@
                 Message: <?php echo "{$aquire['message']}"; ?>
             </div>
             <hr>
-            <p2>Date:  </p2>
+            <p2>Date: <?php echo "{$aquire['date']}"?></p2>
 
                 <?php } ?>
         </div>
