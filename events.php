@@ -1,11 +1,3 @@
-<?php
-    session_start();
-    if(!isset($_SESSION['username'])){
-        header("location:adminlogin.php");
-    }
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,22 +19,24 @@
     include "adminheader.php";
 ?>
 
+<body>
     <div class="content">
 
         <div class="adminsection_1">
-            <h1 class="img-text">WELCOME, THIS IS THE ADMIN PORTAL!</h1>
+            <h1 class="img-text">EVENT CREATOR.</h1>
         </div>
 		
-		<h1>Admin Home</h1>
+		<h1></h1>
 
-		<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo, dicta suscipit earum nostrum 
-            ratione, et rerum placeat iure, consectetur esse sunt quam soluta dolore animi odit quasi 
-            fugiat eligendi iste?</p>
-
-
+		<p>This is where you will create events that can be viewed by users and the general public</p>
 
 	</div>
 
+    <form>
+        <label for="eventname">Event Name:</label>
+        <input type="text" placeholder="Name of Event" name="eventname">
+    </form>
 
 </body>
+
 </html>
