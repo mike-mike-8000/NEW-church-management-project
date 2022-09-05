@@ -1,3 +1,11 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['username'])){
+        header("location:adminlogin.php");
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,6 +27,29 @@
     include "adminheader.php";
 ?>
 
+<style>
+    .event1{
+	margin-left: 20%;
+	margin-top: 5%;
+    margin-bottom: 70px;
+    }
+
+    .event1 input{
+        margin-bottom: 17px;
+    }
+    
+    textarea {
+        width: 15cm;
+        height: 4cm;
+        border: 2px solid black;
+        margin-bottom: 10px;
+    }
+
+    #locate{
+        width: 14cm;
+    }
+
+</style>
 <body>
     <div class="content">
 
@@ -32,9 +63,24 @@
 
 	</div>
 
-    <form>
-        <label for="eventname">Event Name:</label>
-        <input type="text" placeholder="Name of Event" name="eventname">
+    <form class="event1" action="event_connect.php" method="POST">
+            <h5 class="signmsg">
+                <?php
+                    error_reporting(0);
+                    echo $_SESSION['eventMade'];
+                ?>
+            </h5>
+        <label for="eventname"><b>Event Name: </b></label><br>
+        <input type="text" placeholder="Name of Event" name="eventname"><br>
+        <label for="time">Event Time: </label><br>
+        <input type="time" placeholder="00:00 00" name="time"><br>
+        <label for="date">Event Date: </label><br>
+        <input type="date" placeholder="date" name="date"><br>
+        <label for="location">Event Location: </label><br>
+        <input type="text" placeholder="Event Location" name="location" id="locate"><br>
+        <label for="descr">Description of the Event: </label><br>
+        <textarea class="box" type="text" id="descr" name="descr"></textarea><br>
+        <input type="submit" class="btn btn-success" value="Register Event">
     </form>
 
 </body>
