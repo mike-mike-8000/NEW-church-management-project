@@ -61,8 +61,7 @@
             }
                 table tr td {
                 border: 1px solid black;
-                padding:20px; 
-                padding-bottom: 5px;
+                padding: 15px; 
                 text-align:center;
                 width: max-content;
             }
@@ -70,7 +69,7 @@
 
         <table>
             <tr>
-                <th colspan="6">USER MEMBER LIST</th>
+                <th colspan="7">USER MEMBER LIST</th>
             </tr>
             <tr>
                 <th>ID</th>
@@ -79,6 +78,7 @@
                 <th>Email</th>
                 <th>Number</th>
                 <th>Gender</th>
+                <th>Delete Member</th>
             </tr>
             
             <?php 
@@ -93,6 +93,10 @@
                 <td>  <?php echo "{$aquire['email']}"; ?></td>
                 <td>  <?php echo "{$aquire['number']}"; ?></td>
                 <td>  <?php echo "{$aquire['gender']}"; ?></td>
+                <td>  
+                    <?php echo"<a onClick=\" javascript:return confirm('Are you sure you want to delete this member?') \"
+                    href='member_del.php?mem_id={$aquire['ID']}'> Delete </a>"; ?>
+                </td>
             </tr>
             
             <?php } ?>
