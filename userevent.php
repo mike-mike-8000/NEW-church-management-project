@@ -49,6 +49,21 @@
         text-align:center;
         width: max-content;
         }
+    form {
+        margin-top: 40px;
+        margin-left: 60px;
+        margin-bottom: 3cm;
+    }
+    form input{
+        margin-bottom: 10px;
+        margin-top: 5px;
+        width: 10cm;
+    }
+
+    #submit{
+        width: auto;
+    }
+
 </style>
 </head>
 
@@ -104,11 +119,17 @@
             <?php } ?>
         </table>
         <hr>
-
+        
         <h2>Apply for Event of your Choice here</h2>
-
+        
         <form>
-            
+            <label for="eventname">Event Name: </label><br>
+            <input type="text" placeholder="Event Name" name="eventname"><br>
+            <label for="name">Name: </label><br>
+            <input type="text" placeholder="Your Name" name="name"><br>
+            <label for="contact">Email or Phone Number: </label><br>
+            <input type="text" placeholder="Email or Number" name="contact"><br>
+            <input type="submit" id="submit" class="btn btn-success">
         </form>
 
 

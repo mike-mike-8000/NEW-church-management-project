@@ -27,7 +27,7 @@
 		
 		<a id="usr">User Portal</a>
 		<div class="logout">	
-        <a><?php echo ($_SESSION['email']) ?> </a>
+        <a style="margin-right: 30px;"><?php echo ($_SESSION['email']) ?> </a>
         <a href="logout.php" class="btn btn-danger">Logout</a>
 		</div>
 
@@ -39,7 +39,7 @@
     <div class="content">
 
         <div class="adminsection_1">
-            <h1 class="img-text">WELCOME, $_username</h1>
+            <h1 class="img-text">WELCOME</h1>
         </div>
 		
 		<h1>User Dashboard</h1>
