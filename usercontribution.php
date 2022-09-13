@@ -60,8 +60,20 @@
         form textarea{
             margin-bottom: 20px; width: 11cm; height: 3cm;
         }
+        h5{
+            background-color: green;
+            text-align: center;
+            width: max-content;
+            color: white;
+        }
     </style>
-    <form>
+    <form action="usertitheconnect.php" method="POST">
+        <h5>
+            <?php
+            error_reporting(0);
+            echo $_SESSION['contribute'];
+            ?>
+        </h5>
         <label for="name">Full Name:</label><br>
         <input type="text" placeholder="Full Name" name="name" required ><br>
         <label for="mpesa">Mobile Money confirmation code:</label><br>

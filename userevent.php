@@ -63,7 +63,12 @@
     #submit{
         width: auto;
     }
-
+    h5{
+        background-color: green;
+        text-align: center;
+        width: max-content;
+        color: white;
+    }
 </style>
 </head>
 
@@ -122,7 +127,13 @@
         
         <h2>Apply for Event of your Choice here</h2>
         
-        <form>
+        <form action="usereventconnect.php" method="POST">
+                <h5>
+                    <?php
+                    error_reporting(0);
+                    echo $_SESSION['eventreg'];
+                    ?>
+                </h5>
             <label for="eventname">Event Name: </label><br>
             <input type="text" placeholder="Event Name" name="eventname"><br>
             <label for="name">Name: </label><br>
