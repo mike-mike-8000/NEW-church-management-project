@@ -72,8 +72,13 @@
             <div class="col-md-8">
                 <h1>We're a Community</h1>
                 <p>
+                    <b>When we are alone, we are vulnerable, weak and lost. But when we are together, 
+                    we are able to take on so much more. 
+                    That's true in life and as believers.</b>
                     We love God and would like to share our love of God with everyone else.
-                    A church that praises together stays together. </p>
+                    Worshipping together at every reasonable opportunity only serves to strengthen
+                    our faith. Aside from worship, we engage in lots of other activities that let us
+                    engage with one another and bond as a community.</p>
 
             </div>
 
@@ -83,7 +88,7 @@
                 <h1>Open to All</h1>
                 <p>
                 Everyone, regardless of who they are, what they've done or where they're from is welcomed
-                to experience the love and salvation offered by Christ. We are here, always ready to help anyone
+                to experience <b>the love and salvation offered by Christ</b>. We are here, always ready to help anyone
                 in their journey to giving their life to the Lord.
                 </p>
             </div>
@@ -102,7 +107,7 @@
                 <h1>Join Us</h1>
                 <p>
                 Become a proud member of our church today, Join our cause by opening your account and heart to Jesus
-                here.
+                here. (Please note that this is compulsory to register for church activities.)
                 <br>
                 <a href="signup.php" class="btn btn-success">Open your Account here</a>  
                 </p>
