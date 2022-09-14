@@ -72,29 +72,42 @@
             <div class="col-md-8">
                 <h1>We're a Community</h1>
                 <p>
-                    We love God and would like to share our love of God with everyone else
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio esse laudantium, rerum nulla 
-                    nesciunt laboriosam explicabo perferendis repellat 
-                    repudiandae, illum totam perspiciatis amet asperiores nam, 
-                    expedita ad modi. Atque, repellendus. </p>
+                    We love God and would like to share our love of God with everyone else.
+                    A church that praises together stays together. </p>
 
             </div>
 
         </div>
         <div class="row" id="row2">
             <div class="col-md-8">
-                <h1>Join Us</h1>
+                <h1>Open to All</h1>
                 <p>
-                    Become a proud member of our church today, Join our cause by opening your account here
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio esse laudantium, rerum nu
-                    <br>
-                    <a href="signup.php" class="btn btn-success">Open your Account here</a> 
+                Everyone, regardless of who they are, what they've done or where they're from is welcomed
+                to experience the love and salvation offered by Christ. We are here, always ready to help anyone
+                in their journey to giving their life to the Lord.
                 </p>
             </div>
             <div class="col-md-4">
-               <img class="join" src="">
+               <img class="welcome_img" src="images/join.jpg">
             </div>
     
+        </div>
+
+        <div class="row" id="row3">
+            <div class="col-md-4">
+                <img class="welcome_img" src="images/praise.jpg">
+            </div>
+
+            <div class="col-md-8">
+                <h1>Join Us</h1>
+                <p>
+                Become a proud member of our church today, Join our cause by opening your account and heart to Jesus
+                here.
+                <br>
+                <a href="signup.php" class="btn btn-success">Open your Account here</a>  
+                </p>
+
+            </div>
         </div>
     </div>
     
