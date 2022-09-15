@@ -40,7 +40,13 @@
 
     <h2>CONTACTS AND LOCATION.</h2>
     <p1>We are located at:</p1><br>
-    <p1><b>21 Krait Ave, Rosebank Union, Nairobi.</b></p1>
+    <p1><b>21 Krait Ave, Rosebank Union, Nairobi.</b></p1><br><br>
+    <p1>Our Contacts:</p1><br>
+    <p1><b>Email: info@nairobichurch.co.ke</b></p1><br>
+    <p1><b>Phone Number: 098 2567 384.</b></p1><br><br>
+
+    <p1>Alternatively, you can write to us on our <a href="contact.php">Contact Us</a> page and we'll reach 
+        out as soon as possible.</p1>
     </div>
 </body>
 </html>
