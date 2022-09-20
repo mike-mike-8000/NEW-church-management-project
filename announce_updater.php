@@ -87,5 +87,6 @@
         <input type="submit" class="btn btn-success" value="Update Website">
         <button type="reset" class="btn btn-danger">Clear Fields</button>
     </form>
-
+</div>
+    <?php include 'footer.php' ?>
 </html>

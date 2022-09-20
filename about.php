@@ -49,4 +49,5 @@
         out as soon as possible.</p1>
     </div>
 </body>
+<?php include 'footer.php' ?>
 </html>

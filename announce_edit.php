@@ -58,4 +58,8 @@
                     href='announce_del.php?announce_id={$aquire['ID']}'> Delete </a>"; ?><br><br>
         <?php } ?>
         
-    </p1>
+        </p1>
+
+    </div>
+    <?php include 'footer.php' ?>
+</html>

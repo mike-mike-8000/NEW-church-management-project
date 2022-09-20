@@ -70,4 +70,5 @@
     </p1>
     </div>
 </body>
+    <?php include 'footer.php' ?>
 </html>

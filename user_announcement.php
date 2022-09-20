@@ -46,26 +46,30 @@
     <div class="content">
 
         <body>
-    <h1 id="announce">CURRENT ANNOUNCEMENTS AND EVENTS</h1>
-    <hr>
-    <div class="notices">
-    <p1>
-        <?php 
-            while($aquire=$result->fetch_assoc())
-            {
-        ?>
-        <p5>Date: <?php echo "{$aquire['date']}"; ?> </p5>
-        
-        <ol>
-            <li> <?php echo "{$aquire['announcement']}"; ?> </li>
-            <li> <?php echo "{$aquire['announce_2']}"; ?> </li>
-            <li> <?php echo "{$aquire['announce_3']}"; ?> </li>
-            <li> <?php echo "{$aquire['announce_4']}"; ?> </li>
-            <li> <?php echo "{$aquire['announce_5']}"; ?> </li>
-            <li> <?php echo "{$aquire['announce_6']}"; ?> </li>
-        </ol>
-        <?php } ?>
-        
-    </p1>
+        <h1 id="announce">CURRENT ANNOUNCEMENTS AND EVENTS</h1>
+        <hr>
+        <div class="notices">
+        <p1>
+            <?php 
+                while($aquire=$result->fetch_assoc())
+                {
+            ?>
+            <p5>Date: <?php echo "{$aquire['date']}"; ?> </p5>
+            
+            <ol>
+                <li> <?php echo "{$aquire['announcement']}"; ?> </li>
+                <li> <?php echo "{$aquire['announce_2']}"; ?> </li>
+                <li> <?php echo "{$aquire['announce_3']}"; ?> </li>
+                <li> <?php echo "{$aquire['announce_4']}"; ?> </li>
+                <li> <?php echo "{$aquire['announce_5']}"; ?> </li>
+                <li> <?php echo "{$aquire['announce_6']}"; ?> </li>
+            </ol>
+            <?php } ?>
+            
+        </p1>
+        </div>
+        </body>
     </div>
 </body>
+    <?php include 'footer.php' ?>
+</html>

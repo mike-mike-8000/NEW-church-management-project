@@ -13,6 +13,17 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <title>Homepage</title>
+<style>
+    .left-column{
+    float: left;
+    margin-left: 50px;
+}
+
+.right-column{
+    float: right;
+    margin-right: 50px;
+}
+</style>
 </head>
 <header>
     <nav>
@@ -61,6 +72,7 @@
             margin-bottom: 10px;
             margin-left: 45px;
         }
+
     </style>
 
     <div class="container">
@@ -117,4 +129,7 @@
     </div>
     
 </body>
+
+<?php include 'footer.php' ?>
+
 </html>

@@ -100,3 +100,5 @@
         </table>
 
     </div>
+    <?php include 'footer.php' ?>
+</html>
