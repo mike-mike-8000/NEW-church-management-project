@@ -24,6 +24,9 @@
     float: right;
     margin-right: 50px;
 }
+.announce{
+    text-align: center;
+}
 </style>
 </head>
 <header>
@@ -48,11 +51,9 @@
     <section class="announce">
         <h2>WELCOME</h2>
         <br>
-        <p1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet 
-            voluptatum velit quis odio natus sapiente 
-            ad reiciendis Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit facilis, c
-            umque nobis voluptatem velit excepturi aut cum debitis vero aliquid error tenetur voluptatum 
-            incidunt ratione eligendi. Id explicabo cupiditate dolorem!</p1>
+        <p1>But if we walk in the light, as he is in the light, 
+            we have fellowship with one another, and the blood of Jesus his Son cleanses
+             us from all sin. <b>1 John 1:7 ESV</b></p1>
 
         <hr>
     </section>
