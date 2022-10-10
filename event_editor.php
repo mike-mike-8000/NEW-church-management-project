@@ -37,7 +37,7 @@
 <div class="content">
 
     <div class="adminsection_1">
-        <h1 class="img-text">EVENT EDITOR.</h1>
+        <h1 class="img-text">EVENT ERASER.</h1>
     </div>
 
     <p>This section is for the viewing of current events and deletion of past or cancelled ones.
